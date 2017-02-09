@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\src\\main\\res\\menu\\gatt_services.xml"
+    }
+]

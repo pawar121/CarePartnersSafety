@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <string name="app_name">BluetoothLeGatt</string>
+    <string name="intro_message">
+        
+        
+            
+
+            
+        
+        
+    </string>
+    <style name="Theme.Base" parent="android:Theme.Material.Light">
+    </style>
+</resources>

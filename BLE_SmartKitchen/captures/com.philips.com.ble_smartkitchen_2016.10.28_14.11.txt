@@ -1,0 +1,2 @@
+TASK com.philips.com.ble_smartkitchen id=118
+  ACTIVITY com.philips.com.ble_smartkitchen/.homeActivity 35cd967f pid=20841

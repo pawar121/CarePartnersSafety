@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/device_address"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceListItem"></TextView>
+
+    <TextView
+        android:id="@+id/device_strength"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:gravity="center"/>
+
+     <TextView
+         android:id="@+id/device_time"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:textColor="#000000"
+         android:textAppearance="?android:attr/textAppearanceListItem"
+         android:gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:id="@+id/setting_list_name"
+        android:textSize="22sp"
+        android:layout_weight="0.38">
+    </TextView>
+
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/button_setting"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:background="@drawable/setting_icon"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

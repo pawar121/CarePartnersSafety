@@ -1,0 +1,7 @@
+<resources>
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">60px</item>
+        <item name="android:windowBackground">@drawable/background</item>
+
+    </style>
+</resources>

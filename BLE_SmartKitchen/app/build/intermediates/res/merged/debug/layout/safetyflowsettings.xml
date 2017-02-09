@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <!--// SafetyCase1 // -->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/safetycaseone">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/safetycase1"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="50dp"
+    android:id="@+id/safetystep1"
+    android:visibility="invisible"
+    />
+
+ <Button
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:background="@drawable/add"
+     android:layout_marginTop="45dp"
+     android:id="@+id/stepadd1"
+     android:visibility="invisible"
+     android:onClick="showEmailSettingOne" />
+
+   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:id="@+id/emailLayout"
+    android:visibility="invisible">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Notification:"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailNotificationValue"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/add"
+        android:layout_marginTop="40dp"
+        android:id="@+id/stepadd2"
+        android:visibility="invisible"
+    android:onClick="showsoundSetting" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:id="@+id/soundLayout"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound Notification:"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/soundNotificationValue"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/add"
+        android:layout_marginTop="40dp"
+        android:id="@+id/stepadd3"
+        android:visibility="invisible"
+        android:onClick="showstep3"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:id="@+id/alertLayout"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert Notification:"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alertNotificationValue"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/safetycasetwo">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/safetycase2"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/safetystepone"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="50dp"
+            android:id="@+id/stepaddone"
+            android:visibility="invisible"
+            android:onClick="showEmailSettingTwo" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            android:id="@+id/emailLayoutone"
+            android:visibility="invisible">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailNotificationValueone"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="50dp"
+            android:id="@+id/stepaddtwo"
+            android:visibility="invisible"
+            android:onClick="showsoundSettingTwo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            android:id="@+id/soundLayoutone"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soundNotificationValueone"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="50dp"
+            android:id="@+id/stepaddthree"
+            android:visibility="invisible"
+            android:onClick="showstepthree"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            android:id="@+id/alertLayoutone"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alertNotificationValueone"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/safetycasethree">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/safetycase3"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/safetystep3"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="45dp"
+            android:id="@+id/stepadd33"
+            android:visibility="invisible"
+            android:onClick="showEmailSettingThree" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/emailLayoutthree"
+            android:visibility="invisible">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailNotificationValuethree"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="40dp"
+            android:id="@+id/stepadd31"
+            android:visibility="invisible"
+            android:onClick="showsoundSetting" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/soundLayoutthree"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soundNotificationValuethree"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="40dp"
+            android:id="@+id/stepadd32"
+            android:visibility="invisible"
+            android:onClick="showstep3"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/alertLayoutthree"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alertNotificationValuethree"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/safetycasefour">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/safetycase4"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/safetystep4"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="45dp"
+            android:id="@+id/stepadd44"
+            android:visibility="invisible"
+            android:onClick="showEmailSettingFour" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/emailLayoutfour"
+            android:visibility="invisible">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailNotificationValuefour"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="40dp"
+            android:id="@+id/stepadd41"
+            android:visibility="invisible"
+            android:onClick="showsoundSetting" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/soundLayoutfour"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soundNotificationValuefour"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/add"
+            android:layout_marginTop="40dp"
+            android:id="@+id/stepadd42"
+            android:visibility="invisible"
+            android:onClick="showstep3"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:id="@+id/alertLayoutfour"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert Notification:"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alertNotificationValuefour"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--Add (+) Button-->
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="100dp"
+        android:layout_marginLeft="900dp"
+        android:layout_marginTop="50dp">
+
+      <Button
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:background="@drawable/add"
+          android:layout_gravity="right"
+          android:layout_marginTop="340dp"
+          android:id="@+id/Add"
+          android:onClick="addSteps" />
+
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+     <!--MotionSensorBlock-->
+         <LinearLayout
+             android:layout_width="395dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="90dp"
+             android:layout_marginTop="50dp"
+             android:id="@+id/MotionSensorBlock"
+             android:visibility="invisible"
+             android:orientation="vertical"
+             android:background="@drawable/layout_bg"
+             android:weightSum="1">
+
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="15dp"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginTop="15dp"
+                 android:text="Presence Information:"
+                 android:textColor="@android:color/black"
+                 android:layout_below="@+id/MotionSensor_Value"
+                 android:textStyle="bold"
+                 android:id="@+id/motion_sensor" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:id="@+id/MotionSensor_Value"
+                 android:textSize="15dp"
+                 android:layout_marginTop="15dp"
+                 android:textColor="@android:color/black"
+                 android:layout_marginLeft="15dp"
+                 android:text="No Sensor Available" />
+          </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+
+                   <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Battery Level:"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/BatteryLevel"/>
+
+                 <TextView
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     android:layout_marginLeft="15dp"
+                     android:layout_marginTop="15dp"
+                     android:textSize="15dp"
+                     android:layout_toRightOf="@+id/BatteryLevel"
+                     android:textStyle="bold"
+                     android:textColor="@android:color/black"
+                     android:id="@+id/Battery_Value"
+                     android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+               <TextView
+                   android:layout_width="50dp"
+                   android:layout_height="18dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_marginTop="15dp"
+                   android:textSize="15dp"
+                   android:layout_toRightOf="@+id/BatteryLevel"
+                   android:textStyle="bold"
+                   android:id="@+id/Battery_Value_Image"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="" />
+           </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginTop="15dp"
+                 android:textColor="@android:color/black"
+                 android:text="Signal Strength:"
+                 android:textStyle="bold"
+                 android:id="@+id/SigStr"/>
+
+             <TextView
+                 android:layout_width="80dp"
+                 android:layout_height="20dp"
+                 android:textSize="15dp"
+                 android:layout_marginTop="15dp"
+                 android:id="@+id/SignalStrength"
+                 android:layout_marginLeft="15dp"
+                 android:textColor="@android:color/black"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:text="" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="34dp"
+                android:textSize="15dp"
+                android:id="@+id/SignalStrength_Image"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="15dp"
+                     android:layout_marginTop="15dp"
+                     android:textColor="@android:color/black"
+                     android:text="Last Update:"
+                     android:textStyle="bold"/>
+
+
+                 <TextView
+                     android:layout_width="258dp"
+                     android:layout_height="34dp"
+                     android:textColor="@color/lightblue"
+                     android:id="@+id/timecatch"
+                     android:textSize="15dp"
+                     android:layout_marginLeft="30dp"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginBottom="10dp"
+                     android:gravity="right"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+               </LinearLayout>
+
+             <!--<ListView-->
+                 <!--android:id="@+id/List"-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"></ListView>-->
+
+         </LinearLayout>
+
+   <!--OPENCLOSE_Refrigerator Block-->
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/RefrigeratorBlock"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Open Close Sensor Information:"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/MotionSensor_Value"
+                android:textStyle="bold"
+                android:id="@+id/open_close" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/OpenClose_Value"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:text="No Reading Available" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Battery Level:"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:id="@+id/BatteryLevelOpenClose"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/BatteryLevel"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/Battery_Value_OpenClose"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/BatteryLevel"
+                android:textStyle="bold"
+                android:id="@+id/Battery_Value_OpenClose_Image"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:text="Signal Strength:"
+                android:textStyle="bold"
+                android:id="@+id/SignalStrOpenClose"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:textSize="15dp"
+                android:id="@+id/SignalStrengthOpenClose"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="34dp"
+                android:textSize="15dp"
+                android:id="@+id/SignalStrengthOpenClose_Image"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:text="Last Update:"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="258dp"
+                android:layout_height="34dp"
+                android:textColor="@color/lightblue"
+                android:id="@+id/timecatchOpenClose"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <!--SmartPlugBlock-->
+        <LinearLayout
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/SmartPlugBlock"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:background="@drawable/layout_bg"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Current (Amp):"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/MotionSensor_Value"
+                    android:textStyle="bold"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15dp"
+                    android:id="@+id/Current_Strength"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="15dp"
+                    android:text="No Reading Available" />
+
+                <!--<Button-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:id="@+id/Switch"-->
+                    <!--android:text="Switch"-->
+                    <!--android:gravity="right"-->
+                    <!--android:nestedScrollingEnabled="true"-->
+                    <!--android:onClick="onClickWrite"-->
+                    <!--android:layout_gravity="bottom" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voltage:"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/Voltage_Strength"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:layout_toRightOf="@+id/BatteryLevel"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black"
+                    android:text="Signal Strength:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/SmartPlugSignalStrength_Value"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="34dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/SmartPlugSignalStrength_Image"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black"
+                    android:text="Last Update:"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="34dp"
+                    android:textColor="@color/lightblue"
+                    android:id="@+id/smartplugtime"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <ListView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ListView>
+
+        </LinearLayout>
+
+        <!--Microphone Block-->
+
+        <LinearLayout
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp"
+
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:background="@drawable/layout_bg"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Open Close Sensor Information:"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/MotionSensor_Value"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="15dp"
+                    android:text="No Reading Available" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Battery Level:"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                   />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:layout_toRightOf="@+id/BatteryLevel"
+                    android:textStyle="bold"
+
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black"
+                    android:text="Signal Strength:"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@android:color/black"
+                    android:text="Last Update:"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="258dp"
+                    android:layout_height="34dp"
+                    android:textColor="@color/lightblue"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/Help_TextBox"
+      android:orientation="horizontal"
+      android:weightSum="1">
+
+   <TextView
+       android:layout_width="205dp"
+       android:layout_height="60dp"
+       android:text="HELP:"
+       android:textSize="20dp"
+       android:id="@+id/HelpIcon"
+       android:visibility="invisible"
+       android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="537dp"
+          android:layout_height="60dp"
+          android:id="@+id/Help_Value"
+          android:textSize="20dp"
+          android:textAlignment="center"
+          android:layout_toRightOf="@+id/HelpIcon"
+          android:text="Hint: No Sensor Paired. Click on the Setting Icon on the top to get all the nearby sensors."
+          android:textColor="#000000"
+          android:layout_weight="0.21"
+          android:layout_marginTop="130dp" />
+
+  </LinearLayout>
+</LinearLayout>
+

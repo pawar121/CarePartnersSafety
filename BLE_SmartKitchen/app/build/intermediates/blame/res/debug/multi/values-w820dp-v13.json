@@ -1,0 +1,87 @@
+[
+    {
+        "outputFile": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 52,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\src\\main\\res\\values-w820dp\\base-strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 52,
+                        "endOffset": 695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endLine": 12,
+                    "endColumn": 13,
+                    "endOffset": 272
+                },
+                "from": {
+                    "file": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\src\\main\\res\\values-w820dp\\base-strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 700,
+                        "endLine": 27,
+                        "endColumn": 13,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 277,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 353
+                },
+                "from": {
+                    "file": "C:\\Users\\310261380\\Desktop\\3-11Pro\\BLE_SmartKitchen\\app\\src\\main\\res\\values-w820dp\\base-template-styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 677,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 753
+                    }
+                }
+            }
+        ]
+    }
+]

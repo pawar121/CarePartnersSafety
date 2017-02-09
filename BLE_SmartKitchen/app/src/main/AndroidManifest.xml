@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.philips.com.ble_smartkitchen">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_PHONE_STATE"/>
+
+    <application
+        android:name=".BleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/safety"
+        android:label="CarePartners Safety"
+
+    android:supportsRtl="true"
+        >
+        <activity android:name=".homeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingListActivity"
+        android:configChanges="orientation|keyboardHidden"
+        android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" >
+    </activity>
+        <activity android:name=".SafetyFlowSettingActivity">
+        </activity>
+
+        <activity android:name=".ScanDeviceActivity"/>
+        <activity android:name=".ManageDeviceActivity"/>
+        <activity android:name=".SettingsActivity"/>
+
+        <service android:name=".BluetoothLeService" android:enabled="true"/>
+
+    </application>
+</manifest>

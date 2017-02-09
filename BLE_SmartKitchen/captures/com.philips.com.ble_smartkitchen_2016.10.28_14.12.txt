@@ -1,0 +1,47 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        75f7d5e com.philips.com.ble_smartkitchen/.homeActivity filter 1fb3acc7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Key Set Manager:
+  [com.philips.com.ble_smartkitchen]
+      Signing KeySets: 64
+
+Packages:
+  Package [com.philips.com.ble_smartkitchen] (3405cbb9):
+    userId=10156 gids=[3002, 3001, 1028, 1015]
+    pkg=Package{108f353f com.philips.com.ble_smartkitchen}
+    codePath=/data/app/com.philips.com.ble_smartkitchen-1
+    resourcePath=/data/app/com.philips.com.ble_smartkitchen-1
+    legacyNativeLibraryDir=/data/app/com.philips.com.ble_smartkitchen-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    nativeLibraryRootDir=/data/app/com.philips.com.ble_smartkitchen-1/lib
+    nativeLibraryDir=/data/app/com.philips.com.ble_smartkitchen-1/lib/arm
+    secondaryNativeLibraryDir=null
+    nativeLibraryRootRequiresIsa=true
+    dexMode=full art
+    dexTimeStamp=2016-10-28 13:41:06
+    versionCode=1 targetSdk=24
+    versionName=1.0
+    applicationInfo=ApplicationInfo{1ced0e0c com.philips.com.ble_smartkitchen}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/data/com.philips.com.ble_smartkitchen
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-10-28 13:41:05
+    firstInstallTime=2016-10-27 16:40:37
+    lastUpdateTime=2016-10-28 13:41:06
+    signatures=PackageSignatures{3dbef5f [347ed355]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.BLUETOOTH
+      android.permission.WRITE_EXTERNAL_STORAGE
+mPackagesOnlyForOwnerUser:
+mComponentsOnlyForOwnerUser:

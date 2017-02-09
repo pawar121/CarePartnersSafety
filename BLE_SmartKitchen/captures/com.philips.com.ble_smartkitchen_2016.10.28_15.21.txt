@@ -1,0 +1,99 @@
+TASK com.philips.com.ble_smartkitchen id=135
+  ACTIVITY com.philips.com.ble_smartkitchen/.homeActivity 164b2b51 pid=15225
+    Local Activity 1346e559 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={0 1.0 ?mcc?mnc en_US ldltr sw768dp w1024dp h743dp 160dpi xlrg land finger -keyb/v/h -nav/h s.18}
+      mMultiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    FragmentManager misc state:
+      mActivity=com.philips.com.ble_smartkitchen.homeActivity@1346e559
+      mContainer=android.app.Activity$1@37d0a400
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=88434672 (817 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{2dce0439 V.E..... R....... 0,0-1024,768}
+        com.android.internal.widget.ActionBarOverlayLayout{3175a7e V.E..... ........ 0,0-1024,768 #1020424 android:id/decor_content_parent}
+          android.widget.FrameLayout{29f81bdf V.E..... ........ 0,89-1024,768 #1020002 android:id/content}
+            android.widget.LinearLayout{249c002c V.E..... ........ 0,0-1024,679}
+              android.widget.LinearLayout{2c81aaf5 V.E..... ........ 0,0-1024,215}
+                android.widget.LinearLayout{23caa08a V.E..... ........ 60,50-455,215 #7f0b005b app:id/MotionSensorBlock}
+                  android.widget.LinearLayout{2eec96fb V.E..... ........ 0,0-244,36}
+                    android.widget.TextView{11def318 V.ED.... ........ 15,15-162,36 #7f0b005d app:id/motion_sensor}
+                    android.widget.TextView{268f0171 V.ED.... ........ 177,15-244,36 #7f0b005c app:id/MotionSensor_Value}
+                  android.widget.LinearLayout{bba3b56 V.E..... ........ 0,36-152,72}
+                    android.widget.TextView{36e3a7d7 V.ED.... ........ 15,15-108,36 #7f0b005e app:id/BatteryLevel}
+                    android.widget.TextView{235c28c4 V.ED.... ........ 123,15-152,36 #7f0b005f app:id/Battery_Value}
+                  android.widget.LinearLayout{2e4143ad V.E..... ........ 0,72-154,106}
+                    android.widget.TextView{1936b6e2 V.ED.... ........ 15,15-119,34 #7f0b0060 app:id/SigStr}
+                    android.widget.TextView{3cd0ea73 V.ED.... ........ 134,13-154,34 #7f0b0061 app:id/SignalStrength}
+                  android.widget.LinearLayout{14550d30 V.E..... ........ 0,106-384,165}
+                    android.widget.TextView{355b6da9 V.ED.... ........ 15,16-96,35}
+                    android.widget.TextView{d0d5f2e V.ED.... ........ 126,15-384,49 #7f0b0062 app:id/timecatch}
+                  android.widget.ListView{2d45bacf V.ED.VC. ......ID 0,165-395,165 #7f0b0063 app:id/List}
+                android.widget.LinearLayout{10b5cc5c I.E..... ......ID 515,50-910,215 #7f0b0064 app:id/RefrigeratorBlock}
+                  android.widget.LinearLayout{2cd43b65 V.E..... ......ID 0,0-382,36}
+                    android.widget.TextView{1594403a V.ED.... ......ID 15,15-225,36 #7f0b0065 app:id/open_close}
+                    android.widget.TextView{28d34eb V.ED.... ......ID 240,15-382,36 #7f0b0066 app:id/OpenClose_Value}
+                  android.widget.LinearLayout{35015248 V.E..... ......ID 0,36-123,72}
+                    android.widget.TextView{245228e1 V.ED.... ......ID 15,15-108,36 #7f0b0067 app:id/BatteryLevelOpenClose}
+                    android.widget.TextView{3e762606 V.ED.... ......ID 123,15-123,36 #7f0b0068 app:id/Battery_Value_OpenClose}
+                  android.widget.LinearLayout{68834c7 V.E..... ......ID 0,72-142,106}
+                    android.widget.TextView{20fd4af4 V.ED.... ......ID 15,15-119,34 #7f0b0069 app:id/SignalStrOpenClose}
+                    android.widget.TextView{2567721d V.ED.... ......ID 134,13-142,34 #7f0b006a app:id/SignalStrengthOpenClose}
+                  android.widget.LinearLayout{113e9c92 V.E..... ......ID 0,106-384,165}
+                    android.widget.TextView{16495663 V.ED.... ......ID 15,16-96,35}
+                    android.widget.TextView{91e2260 V.ED.... ......ID 126,15-384,49 #7f0b006b app:id/timecatchOpenClose}
+              android.widget.LinearLayout{68e1319 V.E..... ........ 0,215-1024,430}
+                android.widget.LinearLayout{32a5efde V.E..... ........ 60,50-455,215 #7f0b006c app:id/SmartPlugBlock}
+                  android.widget.LinearLayout{370f5bf V.E..... ........ 0,0-174,36}
+                    android.widget.TextView{32b3048c V.ED.... ........ 15,15-113,36}
+                    android.widget.TextView{31e3c7d5 V.ED.... ........ 128,15-174,36 #7f0b006d app:id/Current_Strength}
+                  android.widget.LinearLayout{89d2bea V.E..... ........ 0,36-136,72}
+                    android.widget.TextView{2f492edb V.ED.... ........ 15,15-71,36}
+                    android.widget.TextView{6d1dd78 V.ED.... ........ 86,15-136,36 #7f0b006e app:id/Voltage_Strength}
+                  android.widget.LinearLayout{1ba60c51 V.E..... ........ 0,72-154,106}
+                    android.widget.TextView{351a1cb6 V.ED.... ........ 15,15-119,34}
+                    android.widget.TextView{3ba1ddb7 V.ED.... ........ 134,13-154,34 #7f0b006f app:id/SmartPlugSignalStrength_Value}
+                  android.widget.LinearLayout{28035924 V.E..... ........ 0,106-384,165}
+                    android.widget.TextView{246e1c8d V.ED.... ........ 15,16-96,35}
+                    android.widget.TextView{31a34e42 V.ED.... ........ 126,15-384,49 #7f0b0070 app:id/smartplugtime}
+                  android.widget.ListView{2d6c9e53 V.ED.VC. ......ID 0,165-395,165}
+                android.widget.LinearLayout{36aee390 I.E..... ......ID 515,50-910,215}
+                  android.widget.LinearLayout{232cf489 V.E..... ......ID 0,0-382,36}
+                    android.widget.TextView{179c0c8e V.ED.... ......ID 15,15-225,36}
+                    android.widget.TextView{1d18ccaf V.ED.... ......ID 240,15-382,36}
+                  android.widget.LinearLayout{3046a8bc V.E..... ......ID 0,36-123,72}
+                    android.widget.TextView{12e75045 V.ED.... ......ID 15,15-108,36}
+                    android.widget.TextView{2150639a V.ED.... ......ID 123,15-123,36}
+                  android.widget.LinearLayout{10af84cb V.E..... ......ID 0,72-134,106}
+                    android.widget.TextView{153394a8 V.ED.... ......ID 15,15-119,34}
+                    android.widget.TextView{2031abc1 V.ED.... ......ID 134,13-134,34}
+                  android.widget.LinearLayout{2fc11f66 V.E..... ......ID 0,106-384,165}
+                    android.widget.TextView{1bafa2a7 V.ED.... ......ID 15,16-96,35}
+                    android.widget.TextView{1815354 V.ED.... ......ID 126,15-384,49}
+              android.widget.LinearLayout{126c42fd I.E..... .......D 0,610-1024,679 #7f0b0071 app:id/Help_TextBox}
+                android.widget.TextView{212fcbf2 V.ED.... ......ID 0,0-205,60 #7f0b0072 app:id/HelpIcon}
+                android.widget.TextView{20a9c243 V.ED.... ......ID 205,0-742,60 #7f0b0073 app:id/Help_Value}
+          com.android.internal.widget.ActionBarContainer{244a50c0 V.ED.... ........ 0,25-1024,89 #1020425 android:id/action_bar_container}
+            android.widget.Toolbar{cbf11f9 V.E..... ........ 0,0-1024,64 #1020426 android:id/action_bar}
+              android.widget.TextView{46ab53e V.ED.... ........ 32,18-213,46}
+              android.widget.ActionMenuView{109c3f9f V.E..... ........ 908,0-1012,64}
+                com.android.internal.view.menu.ActionMenuItemView{1e3b8ec VFED..CL ........ 0,0-48,64 #7f0b008d app:id/menu_refresh}
+                com.android.internal.view.menu.ActionMenuItemView{22d5d4b5 VFED..CL ........ 48,0-104,64 #7f0b0091 app:id/menu_setting}
+            com.android.internal.widget.ActionBarContextView{34d8e74a G.E..... ......ID 0,0-0,0 #1020427 android:id/action_context_bar}
+        android.view.View{40f36bb V.ED.... ........ 0,0-1024,25 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {2cc977d8}
+      (Total messages: 0, idling=false, quitting=false)
